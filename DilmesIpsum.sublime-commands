@@ -1,0 +1,26 @@
+[
+
+  {
+    "caption": "DilmesIpsum: 1 perola",
+    "command": "dilmes_ipsum",
+    "args": {"qty": 1 }
+  },
+
+  {
+    "caption": "DilmesIpsum: 2 perolas",
+    "command": "dilmes_ipsum",
+    "args": {"qty": 2 }
+  },
+
+  {
+    "caption": "DilmesIpsum: 4 perolas",
+    "command": "dilmes_ipsum",
+    "args": {"qty": 4 }
+  },
+
+  {
+    "caption": "DilmesIpsum: discurso completo",
+    "command": "dilmes_ipsum",
+    "args": {"qty": 8 }
+  }
+]
