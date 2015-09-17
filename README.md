@@ -6,9 +6,9 @@ It allow you to Insert Dilmes Ipsum in the editor via menu items or keyboard sho
 
 Select how much text you want from the menu item in `Edit->Text->Dilmes Ipsum` or on the right click menu in `Dilmes Ipsum`.
 
-Just press the shortcut key (Alt+Shift+L) to add Dilmes Ipsum text. Keep pressing to add more.
+Just press the shortcut key `Alt+Shift+D` to add Dilmes Ipsum text. Keep pressing to add more.
 
-Alternatively, you can also specify the number of paragraphs, by writing a number, and pressing the shortcut key. Dilmes Ipsum will check if there is a number directly preceding the selection range, and replace it with that many paragraphs of lorem ipsum. Addind a decimal point, defines the approximate number of words per paragraph.
+Alternatively, you can also type `dilmes`, `dilmes2`, `dilmes3` to `dilmes8` followed by a `TAB` so that paragraphs will be added. Dilmes Ipsum will check if there is a number directly preceding the selection range, and replace it with that many paragraphs of lorem ipsum. Addind a decimal point, defines the approximate number of words per paragraph.
 
 ## Features
 
