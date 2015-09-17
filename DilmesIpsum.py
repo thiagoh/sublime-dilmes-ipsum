@@ -25,10 +25,9 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
             chose = []
             from random import randint
             for i in list(range(0, qty)):
-                if i > 0: text += "\n\n"
                 r = randint(0, len(phrases) - 1)
                 while r in chose: r = randint(0, len(phrases) - 1)
-                text += phrases[r]
+                text += phrases[r] + "\n\n"
                 chose.append(r)
 
             # erase region
