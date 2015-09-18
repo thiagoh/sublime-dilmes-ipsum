@@ -2,7 +2,7 @@
 
 An extension for Sublime Text 2 and 3!
 
-It allow you to Insert Dilmes Ipsum in the editor via menu items or keyboard shortcut.
+It allow you to Insert Dilmes Ipsum in the editor via menu items or keyboard shortcut. It uses some popular phrases from Brazilian President Dilma Rousseff
 
 Select how much text you want from the menu item in `Edit->Text->Dilmes Ipsum` or on the right click menu in `Dilmes Ipsum`.
 
@@ -12,12 +12,11 @@ Alternatively, you can also type `dilmes`, `dilmes2`, `dilmes3` to `dilmes8` fol
 
 ## Features
 
-1. Uses some popular phrases from Brazilian President Dilma Rousseff
-2. Randomly generates text from selection of phrases
-3. Leaves the inserted text un-selected, so you can insert some more straight away (rapid tapping to get as much lorem as you want)
-4. Shortcut key, `Edit -> Text -> Dilmes Ipsum...` sub-menu, and context menu activation
-5. Works with multiple selection ranges
-6. Does not leave trailing spaces
+1. Randomly generates text from selection of phrases
+2. Leaves the inserted text un-selected, so you can insert some more straight away (rapid tapping to get as much lorem as you want)
+3. Shortcut key, `Edit -> Text -> Dilmes Ipsum...` sub-menu, and context menu activation
+4. Works with multiple selection ranges
+5. Does not leave trailing spaces
 
 ## Install
 
