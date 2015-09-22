@@ -46,8 +46,6 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
             r1 = sublime.Region(selection.begin() - len(self.s1), selection.begin())
             r2 = sublime.Region(selection.begin() - len(self.s2), selection.begin())
 
-            print selection
-
             if self.view.substr(r1).lower() == 'dilma':
                 self.view.erase(edit, r1)
                 selection = sublime.Region(r1.begin())
@@ -57,9 +55,6 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
             else:
                 text += "\n"
                 self.view.erase(edit, selection)
-
-            print selection
-            print text[0]
 
             # insert text before current cursor position
             self.view.insert(edit, selection.begin(), text)
