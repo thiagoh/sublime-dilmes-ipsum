@@ -1,3 +1,9 @@
 [
-	{ "keys": ["alt+shift+d"], "command": "dilmes_ipsum" }
+	{ "keys": ["alt+shift+d"], "command": "dilmes_ipsum" },
+
+	{ "keys": ["tab"], "command": "dilmes_ipsum", "context": 
+	 	[
+	 		 { "key": "preceding_text", "operator": "regex_contains", "operand": ".*\\b(dilma|dilmes)$", "match_all": true }
+	 	]
+	 }
 ]

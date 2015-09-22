@@ -7,6 +7,9 @@ import re
 
 class DilmesIpsumCommand(sublime_plugin.TextCommand):
 
+    s1 = "dilma"
+    s2 = "dilmes"
+
     def run(self, edit, qty=1):
 
         selections = self.view.sel()
@@ -24,17 +27,39 @@ class DilmesIpsumCommand(sublime_plugin.TextCommand):
                         u"A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo!",
                         u"Ai você fala o seguinte: \"- Mas vocês acabaram isso?\" Vou te falar: -\"Não, está em andamento!\" Tem obras que \"vai\" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós \"podêmo fazê\"? 11, 12, 13, 14... Por que é que não?"];
 
+
+
             text = "";
             chose = []
+
             from random import randint
             for i in list(range(0, qty)):
+
+                if i > 0: text += "\n"
+
                 r = randint(0, len(phrases) - 1)
                 while r in chose: r = randint(0, len(phrases) - 1)
-                text += phrases[r] + "\n\n"
+
+                text += phrases[r]
                 chose.append(r)
 
-            # erase region
-            self.view.erase(edit, selection)
+            r1 = sublime.Region(selection.begin() - len(self.s1), selection.begin())
+            r2 = sublime.Region(selection.begin() - len(self.s2), selection.begin())
+
+            print selection
+
+            if self.view.substr(r1).lower() == 'dilma':
+                self.view.erase(edit, r1)
+                selection = sublime.Region(r1.begin())
+            elif self.view.substr(r2).lower() == 'dilmes':
+                self.view.erase(edit, r2)
+                selection = sublime.Region(r2.begin())
+            else:
+                text += "\n"
+                self.view.erase(edit, selection)
+
+            print selection
+            print text[0]
 
             # insert text before current cursor position
             self.view.insert(edit, selection.begin(), text)
