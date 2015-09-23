@@ -1,6 +1,0 @@
-<snippet>
-	<description>Dilmes: Se hoje é o dia...</description>
-    <content><![CDATA[Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!${0:}]]></content>
-    <tabTrigger>dilmes4</tabTrigger>
-    <scope>text.html - source - meta.tag, punctuation.definition.tag.begin</scope>
-</snippet>

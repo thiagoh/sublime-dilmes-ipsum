@@ -1,6 +1,0 @@
-<snippet>
-	<description>Dilmes: Primeiro eu queria cumprimentar...</description>
-    <content><![CDATA[Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.${0:}]]></content>
-    <tabTrigger>dilmes3</tabTrigger>
-    <scope>text.html - source - meta.tag, punctuation.definition.tag.begin</scope>
-</snippet>

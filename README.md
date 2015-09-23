@@ -8,7 +8,7 @@ Select how much text you want from the menu item in `Edit->Text->Dilmes Ipsum` o
 
 Just press the shortcut key `Alt+Shift+D` to add Dilmes Ipsum text. Keep pressing to add more.
 
-Alternatively, you can also type `dilmes`, `dilmes2`, `dilmes3` to `dilmes8` followed by a `TAB` so that paragraphs will be added. Dilmes Ipsum will check if there is a number directly preceding the selection range, and replace it with that many paragraphs of lorem ipsum. Addind a decimal point, defines the approximate number of words per paragraph.
+Alternatively, you can also type `dilma` or `dilmes` followed by a `TAB` so that paragraphs will be added.
 
 ## Features
 
@@ -27,7 +27,7 @@ The easiest way to install this is with [Package Control](http://wbond.net/subli
  * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
  * Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
  * Select "Package Control: Install Package" (it'll take a few seconds)
- * Select DilmesIpsum when the list appears.
+ * Type `DilmesIpsum` when the list appears.
 
 Package Control will automatically keep Git up to date with the latest version.
 
