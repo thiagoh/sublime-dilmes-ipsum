@@ -60,30 +60,6 @@ img.logo {
     animation-delay: 0.3s;
 }
 
-/*.baloon:after {
-  width: 0;
-  height: 0;
-  border-top: 0px solid transparent;
-  border-bottom: 60px solid transparent;
-  border-left: 60px solid rgba(255, 255, 255, 0.9);
-  content: '';
-  position: absolute;
-  right: -60px;
-  bottom: 120px;
-}
-
-.baloon:before {
-    width: 0;
-    height: 0;
-    border-top: 0px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-left: 60px solid rgba(0, 0, 0, 0.05);
-    content: '';
-    position: absolute;
-    right: -60px;
-    bottom: 100px;
-}*/
-
 .baloon .inner {
   width: 100%;
   height: calc(100% - 50px);
