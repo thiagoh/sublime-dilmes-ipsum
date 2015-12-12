@@ -1,0 +1,151 @@
+/* import fonts */
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif); /* Bree Serif */
+
+/*defaults*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, .bg-dilmes {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+  overflow: hidden;
+}
+
+.bg-dilmes, .logo, .baloon, .footer, .share {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bg-dilmes {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(../img/dilmes4.png);
+  animation-name: showBg;
+  animation-delay: 0.4s;
+  animation-duration: 2s;
+}
+
+
+.header {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+img.logo {
+  width: 250px;
+  animation-name: showLogo;
+  backface-visibility: visible !important;
+}
+
+.baloon {
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    bottom: 140px;
+    padding: 20px 10px 20px 20px;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.1), 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation-name: showBaloon;
+    animation-delay: 0.3s;
+}
+
+/*.baloon:after {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid rgba(255, 255, 255, 0.9);
+  content: '';
+  position: absolute;
+  right: -60px;
+  bottom: 120px;
+}
+
+.baloon:before {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid rgba(0, 0, 0, 0.05);
+    content: '';
+    position: absolute;
+    right: -60px;
+    bottom: 100px;
+}*/
+
+.baloon .inner {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow-y: auto;
+  padding-right: 20px;
+}
+
+.baloon .inner p:first-child {
+  margin-top: 0;
+}
+
+#btnCopy {
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+    text-align: center;
+    min-width: 200px;
+    height: 36px;
+    margin: 10px 20px 0 0;
+    float: right;
+}
+
+#btnCopy:hover {
+  background-color: #FFB52D;
+}
+
+#btnCopy:focus {
+  box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
+  background-color: green;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+  animation-name: showFooter;
+  animation-delay: 0.8s;
+}
+
+.footer .share {
+  float: left;
+}
+
+.footer .text-share {
+  float: left;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.footer .text-share i { float: left; }
+.footer .description-project { float: right; }
+
+.share-animate {
+  animation-name: shareAnimate;
+}
