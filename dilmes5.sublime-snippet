@@ -1,6 +1,0 @@
-<snippet>
-	<description>Dilmes: Todos as descrições...</description>
-    <content><![CDATA[$Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.{0:}]]></content>
-    <tabTrigger>dilmes5</tabTrigger>
-    <scope>text.html - source - meta.tag, punctuation.definition.tag.begin</scope>
-</snippet>
