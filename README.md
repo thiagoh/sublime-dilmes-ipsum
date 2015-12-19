@@ -1,4 +1,7 @@
-# <a href="http://thiagoh.github.io/DilmesIpsum" target="_blank">DilmesIpsum</a>
+<a href="#readme" ></a>
+# DilmesIpsum 
+
+Check out our <a href="http://thiagoh.github.io/DilmesIpsum" target="_blank">GitHub Page</a>!
 
 An extension for Sublime Text 2 and 3! It allows you to insert Dilmes Ipsum in the editor via menu items or keyboard shortcuts. It uses some popular phrases from [Brazilian President Dilma Rousseff](https://en.wikipedia.org/wiki/Dilma_Rousseff)
 
@@ -20,7 +23,7 @@ Alternatively, you can also type `dilma` or `dilmes` followed by a `TAB` so that
 
 ### Package Control
 
-The easiest way to install this is with [Package Control](http://wbond.net/sublime\_packages/package\_control).
+The easiest way to install this is with [Package Control](https://packagecontrol.io/packages/Dilmes%20Ipsum).
 
  * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
  * Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
