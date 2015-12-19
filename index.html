@@ -2,43 +2,166 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>DilmesIpsum - Lorem Ipsum da Presidente Dilma</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DilmesIpsum - O Lorem Ipsum da Presidente Dilma</title>
+  <link rel="shortcut icon" type="image/png" href="src/imgs/favicon.png"/>
+  <!--Style default-->
   <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/animation.css">
+  <link rel="stylesheet" href="src/css/animate.css">
+  <!--MDL css default-->
+  <!-- <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css"> -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <!--Icons MDL-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--MDL css custom-->
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.red-amber.min.css" />
 </head>
 <body>
 
-  <div class="bg-dilmes"></div>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-  <header class="header">
-    <img class="logo" src="src/img/logo-dilmesipsum.png" alt="" />
-  </header>
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <img src="src/imgs/logo-dilmes.png" alt="logo dilmesipsum">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <div class="addthis_native_toolbox"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link mdl-navigation__link--icon" href="https://github.com/thiagoh/DilmesIpsum"><i class="material-icons custom">link</i> github</a>
+        </nav>
+      </div>
+    </header>
 
-  <section class="baloon">
-    <div class="inner" id="text">
-      <p>Ai você fala o seguinte: "- Mas vocês acabaram isso?" Vou te falar: -"Não, está em andamento!" Tem obras que "vai" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós "podêmo fazê"? 11, 12, 13, 14... Por que é que não?</p>
-      <p>Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.</p>
-      <p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.</p>
-      <p>Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!</p>
-      <p>A única área que eu acho, que vai exigir muita atenção nossa, e aí eu já aventei a hipótese de até criar um ministério. É na área de... Na área... Eu diria assim, como uma espécie de analogia com o que acontece na área agrícola.</p>
-      <p>A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo!</p>
-      <p>Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.</p>
-      <p>Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?</p>
-    </div>
-    <button id="btnCopy" data-clipboard-target="#text" type="button" name="button" onblur="cleanText()">Copy to clipboard</button>
-  </section>
+    <main class="mdl-layout__content">
 
-  <footer class="footer">
-    <span class="text-share"><i>Lorem Ipsum da Presidente Dilma, compartilhe: </i></span>
-    <div class="share addthis_native_toolbox"></div>
-    <div class="description-project">
-      <span>view on Github</span>
-    </div>
-  </footer>
+      <div class="page-content">
+        <!-- Your content goes here -->
+        <div class="containerWrapper mdl-grid">
 
-  <script src="src/js/clipboard.min.js"></script>
+          <div class="containerCaricature mdl-cell mdl-cell--5-col">
+
+            <div class="content-caricature">
+
+              <div class="baloon animated"></div>
+
+              <div class="active caricature ph-1"></div>
+              <div class="caricature ph-2"></div>
+              <div class="caricature ph-3"></div>
+              <div class="caricature ph-4"></div>
+              <div class="caricature ph-5"></div>
+              <div class="caricature ph-6"></div>
+            </div>
+
+          </div>
+
+          <div class="containerText mdl-cell mdl-cell--7-col">
+
+            <span class="buttons-choose">
+
+              <button value="ph-1" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                <i class="material-icons">filter_1</i>
+              </button>
+
+              <button value="ph-2" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                <i class="material-icons">filter_2</i>
+              </button>
+
+              <button value="ph-3" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                <i class="material-icons">filter_3</i>
+              </button>
+
+              <button value="ph-4" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                <i class="material-icons">filter_4</i>
+              </button>
+
+              <button value="ph-5" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                <i class="material-icons">filter_5</i>
+              </button>
+
+              <button value="ph-6" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                <i class="material-icons">filter_6</i>
+              </button>
+
+            </span>
+
+            <button id="btnCopy" class="mdl-button mdl-js-ripple-effect mdl-button--colored mdl-button--raised" data-clipboard-target="#textToCopy" onblur="cleanText()">
+              <i class="material-icons">content_copy</i> copiar
+            </button>
+
+            <div id="textToCopy" class="container-text-dilmes"></div>
+
+          </div>
+
+          <div class="containerSublime mdl-cell mdl-cell--12-col">
+            <h2>DilmesIpsum <small><a href="http://www.sublimetext.com/" target="_blank">for Sublime Text</a></small></h2>
+            <p>An extension for Sublime Text 2 and 3! It allows you to insert Dilmes Ipsum in the editor via menu items or keyboard shortcuts. It uses some popular phrases from <a href="https://en.wikipedia.org/wiki/Dilma_Rousseff" target="_blank">Brazilian President Dilma Rousseff</a></p>
+            <p>Select how much text you want from the menu item in <code>Edit->Text->Dilmes Ipsum</code> or on the right click menu in Dilmes Ipsum.</p>
+            <p>Just press the shortcut key <code>Alt+Shift+D</code> to add Dilmes Ipsum text. Keep pressing to add more.</p>
+            <p>Alternatively, you can also type <code>dilma</code> or <code>dilmes</code> followed by a TAB so that paragraphs will be added.</p>
+            <h3>Features</h3>
+            <ol>
+              <li>Randomly generates text from selection of phrases</li>
+              <li>Leaves the inserted text un-selected, so you can insert some more straight away (rapid tapping to get as much lorem as you want)</li>
+              <li>Shortcut key, <code>Edit -> Text -> Dilmes Ipsum...</code> sub-menu, and context menu activation</li>
+              <li>Works with multiple selection ranges</li>
+              <li>Does not leave trailing spaces</li>
+            </ol>
+            <h3>Install</h3>
+            <h4>Package Control</h4>
+            <p>The easiest way to install this is with <a href="http://wbond.net/sublime_packages/package_control" target="_blank">Package Control.</a></p>
+            <ul>
+              <li>If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.</li>
+              <li>Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).</li>
+              <li>Select "Package Control: Install Package" (it'll take a few seconds)</li>
+              <li>Type <code>DilmesIpsum</code> when the list appears.</li>
+            </ul>
+            <p>Package Control will automatically keep Git up to date with the latest version.</p>
+            <p>Report bugs here, and I will do my best to repair them (or better still - make the fix, and send me a pull request).</p>
+            <hr>
+            <p>If you have some problems or improvements with it, contact me via <a href="https://github.com/thiagoh/DilmesIpsum">GitHub.</a></p>
+          </div>
+
+        </div>
+      </div>
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">DilmesIpsum - O Lorem Ipsum da Presidente Dilma.</div>
+          <ul class="mdl-mini-footer__link-list">
+            <li><i>Made with <span class="love">♥</span> by <a href="http://github.com/interaminense" target="_blank">interaminense</a>, <a href="http://github.com/thiagoh" target="_blank">thiagoh</a></i></li>
+          </ul>
+        </div>
+      </footer>
+
+    </main>
+
+
+  </div>
+
+  <!--jQuery-->
+  <script type="text/javascript" src="src/js/jquery.js"></script>
+  <!--JS MDL-->
+  <script type="text/javascript" src="bower_components/material-design-lite/material.min.js"></script>
+  <!--Clipboard-->
+  <script type="text/javascript" src="src/js/clipboard.min.js"></script>
+  <!--javascript-->
+  <script type="text/javascript" src="src/js/javascript.js"></script>
+  <!--Addthis-->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-500ef8864eff892c" async="async"></script>
-  <script type="text/javascript" src="src/js/varied.js"></script>
+
+  <!--Google Analytics -->
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71583168-1', 'auto');
+  ga('send', 'pageview');
+  </script>
 
 </body>
 </html>
