@@ -1,7 +1,7 @@
 <a href="#readme" ></a>
 # DilmesIpsum 
 
-Check out our <a href="http://thiagoh.github.io/DilmesIpsum" target="_blank">GitHub Page</a>!
+Check out our <a href="http://thiagoh.github.io/sublime-dilmes-ipsum" target="_blank">GitHub Page</a>!
 
 An extension for Sublime Text 2 and 3! It allows you to insert Dilmes Ipsum in the editor via menu items or keyboard shortcuts. It uses some popular phrases from [Brazilian President Dilma Rousseff](https://en.wikipedia.org/wiki/Dilma_Rousseff)
 
