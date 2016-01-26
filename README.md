@@ -1,6 +1,6 @@
 <a href="#readme" ></a>
 
-# DilmesIpsum for sublime editor
+# DilmesIpsum for [Sublime Text Editor](http://www.sublimetext.com/)
 
 Check out our <a href="http://thiagoh.github.io/sublime-dilmes-ipsum" target="_blank">GitHub Page</a>!
 
