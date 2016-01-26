@@ -35,6 +35,10 @@ Package Control will automatically keep Git up to date with the latest version.
 
 Report bugs here, and I will do my best to repair them (or better still - make the fix, and send me a pull request).
 
+### Atom version
+
+If you are interested in Atom's version checkout this [plugin](https://github.com/thiagoh/atom-dilmes-ipsum)
+
 ---
 
 If you have some problems or improvements with it, contact me via GitHub.
